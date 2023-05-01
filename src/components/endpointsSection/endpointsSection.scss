@@ -1,0 +1,63 @@
+.endpoints h2 {
+  border: 1px solid rgb(255, 0, 85);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(255, 0, 85);
+  text-align: center;
+  color: rgb(255, 0, 85);
+  background-color: rgba(255, 0, 85, 0.089);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.endpoints {
+  flex-basis: 23%;
+  padding: 20px;
+
+  &-selector {
+    background-color: black;
+  }
+
+  &-selector-agents {
+    background: url(../../resources/listagenticon.png) center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    font-size: 50px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-weight: bold;
+    border: 1px solid rgb(255, 0, 85);
+    box-shadow: 0px 0px 5px rgb(255, 0, 85);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+  }
+
+  &-selector-agents:hover {
+    border-radius: 5px;
+    color: rgb(255, 0, 85);
+    box-shadow: inset 0px 0px 15px rgb(255, 0, 85);
+  }
+
+  &-selector-maps {
+    background: url(../../resources/listmapicon.png) center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    font-size: 50px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-weight: bold;
+    border: 1px solid rgb(255, 0, 85);
+    box-shadow: 0px 0px 5px rgb(255, 0, 85);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+  }
+
+  &-selector-maps:hover {
+    border-radius: 5px;
+    color: rgb(255, 0, 85);
+    box-shadow: inset 0px 0px 15px rgb(255, 0, 85);
+  }
+}

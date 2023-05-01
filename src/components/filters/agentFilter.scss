@@ -1,0 +1,40 @@
+.auxiliary {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  margin: 20px;
+}
+
+.filter-agent-list {
+  label {
+    font-size: 20px;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  }
+
+  select {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    opacity: 70%;
+  }
+}
+
+.search-agent-form {
+  input {
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    opacity: 50%;
+    margin-right: 5px;
+  }
+
+  button {
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+}
